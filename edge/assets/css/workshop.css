@@ -156,6 +156,7 @@
   #acmm{
     position: relative;
   }
+
   /*--------------------------------------------------------------
   # Sections & Section Header
   --------------------------------------------------------------*/
@@ -986,10 +987,11 @@
     font-size: 24px;
     font-weight: 700;
     margin-left: 406px;
-    margin-top: 428px;
+    margin-top: 389px;
     margin-bottom: 5px;
     padding: 10px;
     font-family: 'Bebas Neue', sans-serif;
+
   }
   
   .about .call-us p {
