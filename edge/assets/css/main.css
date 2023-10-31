@@ -346,6 +346,7 @@ section {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+    padding:40px 10px 0px 10px !important;
   }
 }
 
@@ -392,7 +393,6 @@ section {
 .header .logo h1 span {
   color: var(--color-primary);
 }
-
 .header .btn-book-a-table,
 .header .btn-book-a-table:focus {
   font-size: 14px;
@@ -404,6 +404,7 @@ section {
   transition: 0.3s;
   background: #ff7d00;
 }
+
 
 .header .btn-book-a-table:hover,
 .header .btn-book-a-table:focus:hover {
@@ -704,8 +705,9 @@ section {
 
 .about .call-us h4 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 700;   /*required*/
   margin-bottom: 5px;
+  
   font-family: var(--font-default);
 }
 
@@ -955,7 +957,8 @@ section {
 @media (max-width: 575px) {
   .menu .nav-link {
     margin: 0 10px;
-    padding: 10px 0;
+    /*padding: 10px 0;*/
+    padding:40px 10px 0px 10px !important;
   }
 }
 
@@ -1316,9 +1319,15 @@ section {
   padding: 40px;
 }
 
-@media (max-width: 575px) {
-  .book-a-table .php-email-form {
-    padding: 20px;
+@media (max-width: 575px)
+ {
+  
+
+    
+  .book-a-table .php-email-form 
+  {
+   /* padding: 20px;*/
+    padding:40px 10px 0px 10px !important;
   }
 }
 
@@ -1624,12 +1633,12 @@ section {
 }
 .hero video{
     min-width: 100vw;
-    min-height: 100vh;
-    width: auto;
+    min-height:7vh;
+    width: auto;                  /*made chnanges here*/
     height: auto;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 25%;
+    left: 25%;
     transform: translate(-50%, -50%);
 }
 .hero h2 {
@@ -1662,6 +1671,20 @@ section {
   background:#b67503;
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
 }
+/*.hero .btn-register {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 36px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background:#b67503;
+  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
+  margin: left 480px;
+}
+*/
 
 .hero .btn-book-a-table:hover {
   background: rgba(0, 0, 0, 0.8);
@@ -1674,6 +1697,8 @@ section {
   margin-left: 25px;
   color: var(--font-secondary);
   font-weight: 600;
+  
+  
 }
 
 .hero .btn-watch-video i {

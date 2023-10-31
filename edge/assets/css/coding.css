@@ -343,9 +343,12 @@
   /*--------------------------------------------------------------
   # Disable aos animation delay on mobile devices
   --------------------------------------------------------------*/
-  @media screen and (max-width: 768px) {
-    [data-aos-delay] {
+  @media screen and (max-width: 768px)
+   {
+    [data-aos-delay] 
+    {
       transition-delay: 0 !important;
+      padding:40px 10px 0px 10px !important;
     }
   }
   
@@ -1403,7 +1406,7 @@
     width: auto;
     height: auto;
     position: absolute;
-    top: 50%;
+    top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
